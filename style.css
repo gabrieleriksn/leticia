@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    background-image: url('img/taylor-bg.jpg');
+    background-size: cover; /* Para ajustar a imagem ao tamanho da tela */
+    background-position: center; /* Para centralizar a imagem */
+}
+
+.introducao{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.oponentes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{  
+    width: 400px;
+    height: 500px;
+}
+
+.oponente{
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    overflow: hidden;
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

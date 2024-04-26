@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>convite oficial</title>
+</head>
+<body>
+    <div class="introducao">
+        <h1>CONVITE OFICIAL VERDADEIRO!!!</h1>
+        <p>(meu Deus o que eu não faço</p>
+        <h2>NO ENCONTRO TEREMOS DOIS OPONENTES</h2>
+        <p>(sim OPONENTES, aceite os termos) </p>
+        <p>POR QUE OPONENTES? EH COISA DA MINHA CABEÇA PRA EU TE EXPLICAR VOCE VAI TER QUE MERECER 😽😽</p>
+    </div>
+
+    <div class="oponentes">
+        <div class="oponente">
+            <img src="img/leticia.jpg" class="foto">
+            <h2 class="nome">Letícia (NÃO VOCÊ NÃO É A TAYLOR BOSTIFT)</h2>
+            <p class="descricao">informações: bahiana, caráter questionável pq né (n motivos), dá para o gasto, diag
+            nosticada com autismo de suporte 4, maluquinha, esquisita, são muitos elogios não da pra botar tudo tchau
+            </p>
+        </div>
+
+        X
+        
+        <div class="oponente">
+            <img src="img/eu.jpg" class="foto">
+            <h2 class="nome">Gabriel</h2>
+            <p class="descricao">informações: paraíbano (oxente mainha), caráter não questionável, acima do esperado, completamente normal,
+                magnânimo, misericordioso, gente boa, enfim, ele é um sonho de consumo (E ESTÁ LHE DANDO UMA CHANCE)
+            </p>
+        </div>
+    </div>
+    
+    <div id="conteudo" class="introducao" style="margin-bottom: 20px;">
+        <h2>Aceita SAIR comigo?</h2>
+        <div style="margin: auto;width: 170px;">
+            <button class="btn" style="background-color: greenyellow; padding: 10px;" onclick="sim()">SIM</button>
+            <button class="btn" style="background-color: red; padding: 10px;" onclick="desvia(this)" onmouseover="desvia(this)" style="position: absolute;">NÃO</button>
+        </div>
+    </div>
+
+    <script>
+        function sim() {
+            alert("VOCÊ ACEITOU SAIR COMIGO! 😽");
+            location.href = "https://music.youtube.com/watch?v=izGwDsrQ1eQ";
+        }
+    
+        function desvia(btn) {
+            btn.style.position = 'absolute';
+            btn.style.bottom = geraPosicao(10, 90);
+            btn.style.left = geraPosicao(10, 90);
+            console.log('opa, desviei...');
+        }
+    
+        function geraPosicao(min, max) {
+            return (Math.random() * (max - min) + min) + "%";
+        }
+    
+    </script>
+
+</body>
+</html>
